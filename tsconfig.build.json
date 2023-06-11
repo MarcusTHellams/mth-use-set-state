@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "emitDeclarationOnly": true,
+    "noEmit": false,
+    "declaration": true,
+    "outDir": "./dist",
+    "removeComments": false
+  },
+  "include": ["lib"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
