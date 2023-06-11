@@ -9,6 +9,10 @@
     "dist"
   ],
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/MarcusTHellams/mth-use-set-state"
+  },
+  "homepage": "https://github.com/MarcusTHellams/mth-use-set-state",
   "scripts": {
     "dev": "vite --open --port 3009",
     "format": "prettier . --write --ignore-path .gitignore && git update-index --again",
